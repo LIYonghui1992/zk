@@ -12,7 +12,8 @@ namespace app\api\validate;
 use think\Exception;
 use think\Request;
 use think\Validate;
-
+use app\lib\exception\ParameterException;
+use app\lib\exception\BaseException;
 class BaseValidate extends Validate
 {
     public function goCheck()
@@ -22,10 +23,18 @@ class BaseValidate extends Validate
         $request = Request::instance();
         $params = $request->param();
 
-        $result = $this->check($params);
+        $result = $this->batch()->check($params);
         if(!$result){
-            $error = $this->error;
-            throw new Exception($error);
+            $e=new ParameterException([
+                'msg'=>$this->error,
+//                'code'=>400,
+//                'errorCode'=>10002
+            ]); //直接用BaseException 也可以 只不过$error和$errorCode 是用的BaseException的 而不是用的ParameterException的
+//            $e=new BaseException();
+//            $e->msg=$this->error;
+            throw $e;
+//            $error = $this->error;
+//            throw new Exception($error);
         }
         else{
             return true;

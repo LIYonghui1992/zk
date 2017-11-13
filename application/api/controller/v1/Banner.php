@@ -37,7 +37,7 @@ class Banner
 //        }
         if(!$banner){
             throw new Exception("内部错误");
-//            throw new BannerMissException();
+//            throw new BannerMissException(); //不是抛BaseException的好处是 BannerMissException里面直接写好了$code $msg $errorCode 我们不需要重新赋值这三个值了
         }
 
         return $banner;
