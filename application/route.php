@@ -11,5 +11,13 @@
 
 use think\Route;
 
-Route::get('api/v1/banner/:id', 'api/v1.Banner/getBanner');
+Route::get('api/:version/banner/:id', 'api/:version.Banner/getBanner');
 
+Route::get('api/:version/theme','api/:version.Theme/getSimpleList'); //如果没写变量 则用？ids= 这种方式来传入参数 去config中开启完全匹配
+Route::get('api/:version/theme/:id','api/:version.Theme/getComplexOne');
+
+Route::get('api/:version/product/recent','api/:version.Product/getRecent');
+Route::get('api/:version/product/by_category','api/:version.Product/getAllInCategory');
+
+Route::get('api/:version/category/all','api/:version.Category/getAllCategories');
+Route::post('api/:version/token/user','api/:version.Token/getToken');

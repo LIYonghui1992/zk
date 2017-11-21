@@ -35,12 +35,17 @@ class Banner
 //            ];
 //            return json($err,400);
 //        }
-        if(!$banner){
-            throw new BannerMissException();
-//            throw new BannerMissException(); //不是抛BaseException的好处是 BannerMissException里面直接写好了$code $msg $errorCode 我们不需要重新赋值这三个值了
-        }
+        
+//        $banner=BannerModel::with(['items','items.img'])->find($id);
 
-        return json($banner);
+        //没有加$hidden前的隐藏办法
+//        $data=$banner->toArray();
+//        unset($data['delete_time']);
+//        $banner->hidden(['update_time']);
+        if(!$banner){
+            throw new BannerMissException(); //不是抛BaseException的好处是 BannerMissException里面直接写好了$code $msg $errorCode 我们不需要重新赋值这三个值了
+        }
+        return $banner;
     }
 
 
