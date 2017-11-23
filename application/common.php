@@ -33,3 +33,19 @@ function getRandChar($length){
     }
     return $str;
 }
+
+
+//微信公众号
+function checkSignature($signature,$timestamp,$nonce){
+    $token=config('wx.token');
+    $tmpArr = array($token,$timestamp, $nonce);
+    sort($tmpArr, SORT_STRING);
+    $tmpStr = implode( $tmpArr );
+    $tmpStr = sha1( $tmpStr );
+    if($signature==$tmpStr){
+        return true;
+    }else{
+        return false;
+    }
+
+}

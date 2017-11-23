@@ -11,6 +11,7 @@ use app\api\validate\Count;
 use app\api\model\Product as ProductModel;
 use app\api\validate\IDMustBePostiveInt;
 use app\lib\exception\ProductException;
+use think\Exception;
 //创建类和接口  写路由规则 写参数验证 写Model（包含关联关系） 控制器接口调用Model 写异常处理类
 class Product
 {
@@ -35,5 +36,14 @@ class Product
         }
         $products=$products->hidden(['summary']);
         return $products;
+    }
+
+    public function getOne($id){
+        (new IDMustBePostiveInt())->goCheck();
+        $product=ProductModel::getProductDetail($id);
+        if(!$product){
+            throw new ProductException();
+        }
+        return $product;
     }
 }

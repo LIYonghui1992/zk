@@ -164,8 +164,8 @@ return [
 
     'log'                    => [
         // 日志记录方式，内置 file socket 支持扩展
-//        'type'  => 'File',
-        'type'  => 'test', //如果这样则阻止了自动生成日志
+        'type'  => 'File',
+//        'type'  => 'test', //如果这样则阻止了自动生成日志
         // 日志保存目录
         'path'  => LOG_PATH,
         // 日志记录级别
