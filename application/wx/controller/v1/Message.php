@@ -13,36 +13,47 @@ use app\lib\exception\ParameterException;
 use app\wx\service\wechatCallbackapiTest;
 use think\Exception;
 use think\Request;
+use think\Log;
 
 class Message
 {
-    public function receiveMsg($signature,$timestamp,$nonce,$echostr){
-        error_log("==========================".$signature." ".$timestamp." ".$nonce." ".$echostr."============================================");
+
+    public function receiveMsg(){
+//        $str=<<<hello
+//<xml>
+// <ToUserName><![CDATA[toUser]]></ToUserName>
+// <FromUserName><![CDATA[fromUser]]></FromUserName>
+// <CreateTime>1348831860</CreateTime>
+// <MsgType><![CDATA[text]]></MsgType>
+// <Content><![CDATA[this is a test]]></Content>
+// <MsgId>1234567890123456</MsgId>
+// </xml>
+//hello;
+//        //将xml转换为对象格式
+//        $str_obj=simplexml_load_string($str,'SimpleXMLElement',LIBXML_NOCDATA);
+////        echo $str."<br>";
+////        echo json_encode($str_obj);
+//        echo $str_obj->ToUserName;
 //        exit;
-//        $signature='87dca0f49b1a6d593c3e1ad1b0bcfa42d22c29e2';
-//        $timestamp='1511452409';
-//        $nonce='4135056283';
-//        $echostr='10848167547209514751';
+        $request=Request::instance();
+//        error_log(json_encode($request->param()));
+        Log::record("Receive".json_encode($request->param()));
         $wechatObj = new wechatCallbackapiTest();
         if(!isset($_GET['echostr'])){
-            $wechatObj->responseMsg();
+//            error_log("good");
+            $message=$wechatObj->responseMsg();
+            if(empty($message)){
+                echo "";
+            }else{
+                echo $message;
+            }
         }else{
-            $wechatObj->valid();
+            $result=$wechatObj->valid();
+            if($result){
+                echo $result;
+            }else{
+                echo "";
+            }
         }
-//        $result=checkSignature($signature,$timestamp,$nonce);
-//        error_log("============".$result."================");
-//        if($result){
-//            header('content-type:text');
-//            echo $echostr;
-//            exit;
-//        }else{
-//            throw new Exception($signature." ".$timestamp." ".$nonce." ".$echostr);
-//        }
     }
-//    public function receiveMsg(){
-//        $request=Request::instance();
-////        $request->param();
-//        echo "success";
-//        error_log(json_encode($request->param()));
-//    }
 }

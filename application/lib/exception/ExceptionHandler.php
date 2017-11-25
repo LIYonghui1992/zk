@@ -30,7 +30,7 @@ class ExceptionHandler extends Handle
                 return parent::render($e);
             }
             $this->code=500;
-            $this->msg='服务器内部错误';
+            $this->msg='服务器内部错误2';
             $this->errorCode=999;
             $this->recordErrorLog($e);
         }
@@ -45,6 +45,7 @@ class ExceptionHandler extends Handle
     }
 
     private function recordErrorLog(\Exception $e){
+        //如果config中的Log type="test" 则这里就必须要手动初始化了
         Log::init([
             'type'=>'File',
             'path'=>LOG_PATH,

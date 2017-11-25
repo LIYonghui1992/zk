@@ -13,7 +13,7 @@ use think\Route;
 //微信公众平台
 
 Route::get('wx/:version/verification', 'wx/:version.Verification/checkSignature');
-Route::get('wx/:version/message', 'wx/:version.Message/receiveMsg');
+Route::rule('wx/:version/message', 'wx/:version.Message/receiveMsg');
 //微信小程序
 Route::get('api/:version/banner/:id', 'api/:version.Banner/getBanner');
 
