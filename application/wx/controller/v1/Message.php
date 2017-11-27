@@ -10,7 +10,7 @@ namespace app\wx\controller\v1;
 
 use app\lib\exception\BaseException;
 use app\lib\exception\ParameterException;
-use app\wx\service\wechatCallbackapiTest;
+use app\wx\service\Message as MessageService;
 use think\Exception;
 use think\Request;
 use think\Log;
@@ -38,7 +38,7 @@ class Message
         $request=Request::instance();
 //        error_log(json_encode($request->param()));
         Log::record("Receive".json_encode($request->param()));
-        $wechatObj = new wechatCallbackapiTest();
+        $wechatObj = new MessageService();
         if(!isset($_GET['echostr'])){
 //            error_log("good");
             $message=$wechatObj->responseMsg();

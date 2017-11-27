@@ -14,6 +14,7 @@ use think\Route;
 
 Route::get('wx/:version/verification', 'wx/:version.Verification/checkSignature');
 Route::rule('wx/:version/message', 'wx/:version.Message/receiveMsg');
+Route::rule('wx/:version/setmenu', 'wx/:version.Menu/setMenu');
 //微信小程序
 Route::get('api/:version/banner/:id', 'api/:version.Banner/getBanner');
 
