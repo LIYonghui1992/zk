@@ -6,7 +6,7 @@
  * Time: 11:31
  */
 
-namespace app\wx\controller\v1;
+namespace app\h5\controller\v1;
 
 
 use think\Controller;
@@ -15,7 +15,7 @@ class Index extends Controller
 {
     public function index(){
         $a="aaa";
-        $this->assign("a",$a);
-        return $this->display();
+        $this->assign("a","aaaa");
+        return $this->fetch("index",[],['__PUBLIC__'=>'/public/']);
     }
 }

@@ -15,6 +15,6 @@ class Index extends Controller
 {
     public function index(){
         $this->assign("test","testleo");
-        $this->fetch();
+        return $this->fetch();
     }
 }
