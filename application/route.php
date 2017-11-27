@@ -10,6 +10,9 @@
 // +----------------------------------------------------------------------
 
 use think\Route;
+//微网页
+Route::rule('wx/:version/index', 'wx/:version.index/index');//路由的时候 index会自动转为Index
+//Route::rule('wx/:version/index', 'wx/:version.Index/index'); //如果这里写 写大写的控制器  则模板文件要写v1/_index/index.html
 //微信公众平台
 
 Route::get('wx/:version/verification', 'wx/:version.Verification/checkSignature');
