@@ -52,7 +52,6 @@
         header{
             width: 100%;
             height: 150px;
-            background: blue;
         }
         #main{
             width:94%;
@@ -108,15 +107,32 @@
             min-height:100% ;
         }
 
-
+        .swipe {
+            overflow: hidden;
+            visibility: hidden;
+            position: relative;
+        }
+        .swipe-wrap {
+            overflow: hidden;
+            position: relative;
+        }
+        .swipe-wrap > figure {
+            float: left;
+            width: 100%;
+            position: relative;
+        }
     </style>
-    <link rel="stylesheet" type="text/css" href="{$Think.const.root_path}public/font-awesome-4.7.0/css/font-awesome.min.css" media="all" />
-    <!--<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">-->
 </head>
 <body>
 <section id="body">
     <header>
-
+        <div id="slider" class="swipe">
+            <div class="swipe-wrap">
+                <div><img src="{$Think.const.root_path}public/images/img/img.gif"></div>
+                <div><img src="{$Think.const.root_path}public/images/img/img.gif"></div>
+                <div><img src="{$Think.const.root_path}public/images/img/img.gif"></div>
+            </div>
+        </div>
     </header>
     <section id="main">
         <section id="tel">
@@ -207,4 +223,9 @@
 
 </nav>
 </body>
+<script>
+    var slider = Swipe(document.getElementById('slider'), {
+        continuous: true
+    });
+</script>
 </html>
