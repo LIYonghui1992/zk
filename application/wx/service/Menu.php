@@ -28,17 +28,17 @@ class Menu
           "key":"V1001_TODAY_MUSIC"
       },
       {
-           "name":"菜单",
+           "name":"h5",
            "sub_button":[
            {	
                "type":"view",
-               "name":"搜索",
-               "url":"http://lvseguoshu.com/h5/bottle"
+               "name":"漂流瓶",
+               "url":"http://lvseguoshu.cn/h5/bottle/index"
             },
             {
-               "type":"click",
-               "name":"赞一下我们",
-               "key":"V1001_GOOD"
+               "type":"view",
+               "name":"首页",
+               "url":"http://lvseguoshu.cn/h5/v1/index"
             }]
        }]
  }

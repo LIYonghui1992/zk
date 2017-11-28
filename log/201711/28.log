@@ -14806,3 +14806,218 @@
 [ info ] [ VIEW ] D:\wamp\www\zk\public/../application/h5\view\v1\index\index.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-28T16:31:26+08:00 ] 127.0.0.1 127.0.0.1 POST /h5/v1/index
+[ info ] www.tp5.com/h5/v1/index [运行时间：0.050313s][吞吐率：19.88req/s] [内存消耗：2,390.67kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'v1.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8784bdce-795e-46db-b75c-e51cdd326004',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\h5\controller\v1\Index->index[ D:\wamp\www\zk\application\h5\controller\v1\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/h5\view\v1\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-28T16:39:59+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/index
+[ info ] www.tp5.com/h5/bottle/index [运行时间：0.115173s][吞吐率：8.68req/s] [内存消耗：4,714.45kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'bottle',
+)
+[ info ] [ RUN ] app\h5\controller\bottle\Index->index[ D:\wamp\www\zk\application\h5\controller\bottle\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/h5\view\bottle\index\index.html [ array (
+  0 => 'content',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001104s ] mysql:host=127.0.0.1;dbname=zk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h5_bottle_content` [ RunTime:0.016583s ]
+[ sql ] [ SQL ] SELECT * FROM `h5_bottle_content` [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT * FROM `h5_bottle_content` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000709s ]
+---------------------------------------------------------------
+[ 2017-11-28T16:40:00+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/mountain1.jpg
+[ info ] www.tp5.com/h5/bottle/mountain1.jpg [运行时间：0.054738s][吞吐率：18.27req/s] [内存消耗：1,989.40kb] [文件加载：29]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle',
+    2 => 'mountain1.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/h5/bottle/index',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-28T17:15:28+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/index
+[ info ] www.tp5.com/h5/bottle/index [运行时间：0.103090s][吞吐率：9.70req/s] [内存消耗：4,714.55kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'bottle',
+)
+[ info ] [ RUN ] app\h5\controller\bottle\Index->index[ D:\wamp\www\zk\application\h5\controller\bottle\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/h5\view\bottle\index\index.html [ array (
+  0 => 'content',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001587s ] mysql:host=127.0.0.1;dbname=zk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h5_bottle_content` [ RunTime:0.015581s ]
+[ sql ] [ SQL ] SELECT * FROM `h5_bottle_content` [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT * FROM `h5_bottle_content` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000754s ]
+---------------------------------------------------------------
+[ 2017-11-28T17:15:28+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/mountain1.jpg
+[ info ] www.tp5.com/h5/bottle/mountain1.jpg [运行时间：0.051533s][吞吐率：19.40req/s] [内存消耗：1,989.40kb] [文件加载：29]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle',
+    2 => 'mountain1.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/h5/bottle/index',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-28T17:51:14+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/index
+[ info ] www.tp5.com/h5/bottle/index [运行时间：0.114249s][吞吐率：8.75req/s] [内存消耗：4,714.55kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'bottle',
+)
+[ info ] [ RUN ] app\h5\controller\bottle\Index->index[ D:\wamp\www\zk\application\h5\controller\bottle\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/h5\view\bottle\index\index.html [ array (
+  0 => 'content',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001328s ] mysql:host=127.0.0.1;dbname=zk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h5_bottle_content` [ RunTime:0.015419s ]
+[ sql ] [ SQL ] SELECT * FROM `h5_bottle_content` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `h5_bottle_content` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001566s ]
+---------------------------------------------------------------
+[ 2017-11-28T17:51:15+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/mountain1.jpg
+[ info ] www.tp5.com/h5/bottle/mountain1.jpg [运行时间：0.058074s][吞吐率：17.22req/s] [内存消耗：1,989.40kb] [文件加载：29]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle',
+    2 => 'mountain1.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/h5/bottle/index',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

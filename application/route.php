@@ -12,7 +12,6 @@
 use think\Route;
 //微网页
 Route::rule('h5/:version/index', 'h5/:version.index/index');//路由的时候 index会自动转为Index
-//Route::rule('h5/:version/bottle', 'h5/:version.bottle/bottle');//路由的时候 index会自动转为Index
 //Route::rule('h5/:version/bottle', 'h5/:version.Index/bottle'); //如果这里写 写大写的控制器  则模板文件要写v1/_index/bottle.html
 //微信公众平台
 
