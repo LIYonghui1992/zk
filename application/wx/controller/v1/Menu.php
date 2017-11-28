@@ -17,6 +17,5 @@ class Menu
         $menu=new MenuService($access_token);
         $result=$menu->setMenu();
         return $result;
-
     }
 }

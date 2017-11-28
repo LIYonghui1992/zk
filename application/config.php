@@ -56,13 +56,13 @@ return [
     // +----------------------------------------------------------------------
 
     // 默认模块名
-    'default_module'         => 'index',
+    'default_module'         => 'bottle',
     // 禁止访问模块
     'deny_module_list'       => ['common'],
     // 默认控制器名
     'default_controller'     => 'Index',
     // 默认操作名
-    'default_action'         => 'index',
+    'default_action'         => 'bottle',
     // 默认验证器
     'default_validate'       => '',
     // 默认的空控制器名
@@ -136,10 +136,18 @@ return [
         'taglib_begin' => '{',
         // 标签库标签结束标记
         'taglib_end'   => '}',
+        //开启模板布局
+        'layout_on'=>'on',
+        'layout_name'=>'layout',
+//        'layout_item'=>'{__CONTENT__}',
     ],
 
-    // 视图输出字符串内容替换
-    'view_replace_str'       => [],
+    // 视图输出字符串内容替换 配置资源路径
+    'view_replace_str'       => [
+        '__CSS__'=>ROOT_PATH.'public/css',
+        '__JS__'=>ROOT_PATH.'public/js',
+        '__PUBLIC__'=>ROOT_PATH.'public',
+    ],
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
     'dispatch_error_tmpl'    => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',

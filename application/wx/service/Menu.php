@@ -33,7 +33,7 @@ class Menu
            {	
                "type":"view",
                "name":"搜索",
-               "url":"http://www.soso.com/"
+               "url":"http://lvseguoshu.com/h5/bottle"
             },
             {
                "type":"click",

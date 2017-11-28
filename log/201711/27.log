@@ -1,0 +1,2171 @@
+---------------------------------------------------------------
+[ 2017-11-27T11:39:04+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.049781s][吞吐率：20.09req/s] [内存消耗：2,014.24kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b9c36859-6755-4da8-a63f-cdac700d1ac7',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\wx\controller\v1\Index::assign()[D:\wamp\www\zk\application\wx\controller\v1\Index.php:16]
+---------------------------------------------------------------
+[ 2017-11-27T11:39:42+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.065769s][吞吐率：15.20req/s] [内存消耗：2,493.45kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '92c81159-0391-494e-bb21-ba1d81828ece',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\wamp\www\zk\public/../application/wx\view\v1\_index\index.html[D:\wamp\www\zk\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2017-11-27T11:48:00+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.042154s][吞吐率：23.72req/s] [内存消耗：2,493.60kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f7721a2e-0a40-4548-9fc3-05213ffaaffd',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\wamp\www\zk\public/../application/wx\view\v1\_index\index.html[D:\wamp\www\zk\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2017-11-27T11:54:44+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.040841s][吞吐率：24.49req/s] [内存消耗：2,493.43kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9ed13c83-3356-4198-9898-1b0cffced83d',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\wamp\www\zk\public/../application/wx\view\v1\_index\index.html[D:\wamp\www\zk\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2017-11-27T13:31:35+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.044756s][吞吐率：22.34req/s] [内存消耗：2,015.68kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e1e494dc-1f6b-4093-ae20-bc2d787ac4d2',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\wx\controller\Test::assign()[D:\wamp\www\zk\application\wx\controller\Test.php:15]
+---------------------------------------------------------------
+[ 2017-11-27T13:31:48+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.034027s][吞吐率：29.39req/s] [内存消耗：2,642.65kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a848d511-ddaa-479d-8fb7-303bef21a126',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:32:15+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.057807s][吞吐率：17.30req/s] [内存消耗：2,642.43kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bf6e3caa-3cc2-425a-a4ec-6de28d15ab00',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:32:22+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.031115s][吞吐率：32.14req/s] [内存消耗：2,395.42kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '402a8f0a-06da-4f09-a16a-caada1e3b283',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:32:44+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.tp5.com/ [运行时间：0.040140s][吞吐率：24.91req/s] [内存消耗：1,981.90kb] [文件加载：28]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:32:57+08:00 ] 127.0.0.1 127.0.0.1 GET /test
+[ info ] www.tp5.com/test [运行时间：0.034565s][吞吐率：28.93req/s] [内存消耗：1,981.70kb] [文件加载：28]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:33:04+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.036870s][吞吐率：27.12req/s] [内存消耗：2,395.84kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:33:16+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.038557s][吞吐率：25.94req/s] [内存消耗：2,396.45kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:33:23+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.034796s][吞吐率：28.74req/s] [内存消耗：2,396.47kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:33:24+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.035302s][吞吐率：28.33req/s] [内存消耗：2,396.47kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:33:25+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.038964s][吞吐率：25.66req/s] [内存消耗：2,396.47kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:33:25+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.036373s][吞吐率：27.49req/s] [内存消耗：2,396.47kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:33:25+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.036602s][吞吐率：27.32req/s] [内存消耗：2,396.47kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:33:25+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.038160s][吞吐率：26.21req/s] [内存消耗：2,396.47kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:33:25+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.037710s][吞吐率：26.52req/s] [内存消耗：2,396.47kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:33:26+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.035376s][吞吐率：28.27req/s] [内存消耗：2,396.47kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:33:26+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.037843s][吞吐率：26.42req/s] [内存消耗：2,396.47kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:33:26+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.034118s][吞吐率：29.31req/s] [内存消耗：2,396.47kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:34:06+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.042306s][吞吐率：23.64req/s] [内存消耗：2,396.08kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:35:39+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.tp5.com/ [运行时间：0.033774s][吞吐率：29.61req/s] [内存消耗：1,981.90kb] [文件加载：28]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:35:55+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/index
+[ info ] www.tp5.com/wx/index [运行时间：0.038734s][吞吐率：25.82req/s] [内存消耗：2,090.02kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:36:33+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/index
+[ info ] www.tp5.com/wx/index [运行时间：0.039663s][吞吐率：25.21req/s] [内存消耗：1,995.36kb] [文件加载：31]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:36:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=Test/test
+[ info ] www.tp5.com/index.php?s=Test/test [运行时间：0.034189s][吞吐率：29.25req/s] [内存消耗：1,986.37kb] [文件加载：28]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Test',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:37:33+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.tp5.com/ [运行时间：0.037182s][吞吐率：26.89req/s] [内存消耗：1,981.90kb] [文件加载：28]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:38:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/wx/Test/test
+[ info ] www.tp5.com/index.php/wx/Test/test [运行时间：0.043231s][吞吐率：23.13req/s] [内存消耗：1,981.09kb] [文件加载：28]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:38:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=/wx/Test/test
+[ info ] www.tp5.com/index.php?s=/wx/Test/test [运行时间：0.033587s][吞吐率：29.77req/s] [内存消耗：1,985.49kb] [文件加载：28]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:38:55+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.033140s][吞吐率：30.17req/s] [内存消耗：2,395.76kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '64cbd1b6-42d0-4552-955c-8fcc4e9a6372',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:39:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=/wx/test/test
+[ info ] www.tp5.com/index.php?s=/wx/test/test [运行时间：0.032854s][吞吐率：30.44req/s] [内存消耗：1,985.49kb] [文件加载：28]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:39:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=/wx/test/
+[ info ] www.tp5.com/index.php?s=/wx/test/ [运行时间：0.037391s][吞吐率：26.74req/s] [内存消耗：2,400.62kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:49:41+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.tp5.com/ [运行时间：0.039721s][吞吐率：25.18req/s] [内存消耗：2,639.13kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '24902803-6ddb-4104-97a3-4935f1956b7d',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\zk\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/index\view\index\index.html [ array (
+  0 => 'test',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:49:51+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.tp5.com/ [运行时间：0.043068s][吞吐率：23.22req/s] [内存消耗：2,392.13kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\zk\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/index\view\index\index.html [ array (
+  0 => 'test',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:51:25+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.tp5.com/ [运行时间：0.034774s][吞吐率：28.76req/s] [内存消耗：2,639.02kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '85bdb1ff-4663-40f2-a601-4ae2e42deec4',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\zk\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/index\view\index\index.html [ array (
+  0 => 'test',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:51:25+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.tp5.com/ [运行时间：0.030613s][吞吐率：32.67req/s] [内存消耗：2,391.75kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '25a1b5ba-0ad3-44fd-9224-33a0ae02a182',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\zk\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/index\view\index\index.html [ array (
+  0 => 'test',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:51:52+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.tp5.com/ [运行时间：0.037201s][吞吐率：26.88req/s] [内存消耗：2,638.72kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3eb0fc9e-8688-402b-8e7f-b61a77ad749f',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\zk\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/index\view\index\index.html [ array (
+  0 => 'test',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:51:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.tp5.com/ [运行时间：0.031676s][吞吐率：31.57req/s] [内存消耗：2,391.80kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7de5845c-9871-4e5c-8228-eefb403c4192',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\zk\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/index\view\index\index.html [ array (
+  0 => 'test',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:51:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.tp5.com/ [运行时间：0.045336s][吞吐率：22.06req/s] [内存消耗：2,391.80kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '55d81a4d-8a74-4db8-9b43-a6699b7db22a',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\zk\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/index\view\index\index.html [ array (
+  0 => 'test',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:51:54+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.tp5.com/ [运行时间：0.039242s][吞吐率：25.48req/s] [内存消耗：2,391.80kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f83851e0-0dc0-4292-8eb8-03fc3ed75dd6',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\zk\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/index\view\index\index.html [ array (
+  0 => 'test',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:51:56+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.tp5.com/ [运行时间：0.034537s][吞吐率：28.95req/s] [内存消耗：2,391.80kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '99874df3-7ae6-4ab1-bf4e-1781891b67dc',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\zk\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/index\view\index\index.html [ array (
+  0 => 'test',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T13:51:57+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.tp5.com/ [运行时间：0.035785s][吞吐率：27.94req/s] [内存消耗：2,391.80kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c8207a63-5644-4b01-9fb2-0cbed080aaec',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\zk\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/index\view\index\index.html [ array (
+  0 => 'test',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:10:12+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.039543s][吞吐率：25.29req/s] [内存消耗：2,496.34kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c2af5628-bf0b-4e6b-aff4-d97eb2847f09',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\wamp\www\zk\public/../application/wx\view\v1\_index\index.html[D:\wamp\www\zk\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2017-11-27T14:11:10+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.035404s][吞吐率：28.25req/s] [内存消耗：2,658.41kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '10f17cdd-e848-47fa-b827-985fa031c323',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\v1\_index\index.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:11:23+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.043353s][吞吐率：23.07req/s] [内存消耗：2,658.34kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '498464ed-1f07-441c-a599-76e68f224a1c',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\v1\_index\index.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:38:49+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.039036s][吞吐率：25.62req/s] [内存消耗：2,411.52kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c544e4a7-024f-4309-853e-dd2537ab6485',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\v1\_index\index.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:38:51+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.032780s][吞吐率：30.51req/s] [内存消耗：2,411.52kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a57536ef-62e8-4168-8d76-1bfdf184dbd0',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\v1\_index\index.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:39:32+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.030343s][吞吐率：32.96req/s] [内存消耗：2,395.76kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '81d63aa6-4d68-4217-85ca-f50f04e69c09',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:39:34+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.031056s][吞吐率：32.20req/s] [内存消耗：2,395.76kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c60a71a0-459e-4d86-a2f5-e8e038751cc8',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:39:34+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.030744s][吞吐率：32.53req/s] [内存消耗：2,395.76kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ba0c68c6-2700-4479-840d-fb034ae0fecc',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:39:37+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.037740s][吞吐率：26.50req/s] [内存消耗：2,395.76kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5fdae1d0-2795-4b8c-8007-3ddc25ecc367',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:41:05+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.033959s][吞吐率：29.45req/s] [内存消耗：2,395.76kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a1cfcece-2dd0-40ea-987a-9b790a483dc8',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:41:12+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.035036s][吞吐率：28.54req/s] [内存消耗：2,496.67kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f86acec0-441b-41ef-8166-8a005670f230',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\wamp\www\zk\public/../application/wx\view\v1\_index\index.html[D:\wamp\www\zk\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2017-11-27T14:41:23+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.041769s][吞吐率：23.94req/s] [内存消耗：2,395.76kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e88adc7c-0ba3-4304-a9e9-6a434822b564',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:41:34+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.036852s][吞吐率：27.14req/s] [内存消耗：2,395.65kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '332d4877-3aca-4e51-95f2-f6098fdfe4c7',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:42:32+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.044733s][吞吐率：22.35req/s] [内存消耗：2,494.64kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3ea6363a-134d-479b-8a59-da1850b65893',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\wamp\www\zk\public/../application/wx\view\test\test.html[D:\wamp\www\zk\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2017-11-27T14:43:29+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.039956s][吞吐率：25.03req/s] [内存消耗：2,642.51kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '37a57026-08a5-46a8-9596-35956d0257c6',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:44:01+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.043302s][吞吐率：23.09req/s] [内存消耗：2,496.67kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '85b36721-7d64-4dd8-9df1-f92bca508018',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\wamp\www\zk\public/../application/wx\view\v1\_index\index.html[D:\wamp\www\zk\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2017-11-27T14:45:19+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.033423s][吞吐率：29.92req/s] [内存消耗：2,395.53kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '689dcd4f-1e81-46e2-85f3-9a8f2aad1471',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:45:20+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.031125s][吞吐率：32.13req/s] [内存消耗：2,395.53kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd5de0247-66b8-4467-bd65-ff59a6561ff6',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:45:20+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.038680s][吞吐率：25.85req/s] [内存消耗：2,395.53kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e323d8e0-b635-47f3-8f8d-e1adb4cf0076',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:45:20+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.034238s][吞吐率：29.21req/s] [内存消耗：2,395.53kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f8c9a5a8-3a75-4717-a11c-06b1d6501102',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:45:29+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.037623s][吞吐率：26.58req/s] [内存消耗：2,642.05kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'Test',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '431a8af1-93b3-4621-b911-47a03532bcf8',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wx\controller\Test->test[ D:\wamp\www\zk\application\wx\controller\Test.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\test\test.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:52:46+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.045663s][吞吐率：21.90req/s] [内存消耗：2,658.24kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6554418d-f4e6-4517-b3f4-3682b98c7631',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\v1\index\index.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:53:51+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.030459s][吞吐率：32.83req/s] [内存消耗：2,411.52kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bb13ffe1-97ee-4314-9250-777bb1442c0e',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\v1\index\index.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:53:54+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.035862s][吞吐率：27.88req/s] [内存消耗：2,411.52kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1fc7450c-9c2b-4485-b3fe-e636dc74ace7',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\v1\index\index.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:55:14+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.044866s][吞吐率：22.29req/s] [内存消耗：2,658.43kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '10f69cac-1367-4535-a3cb-170d2d0396b4',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\v1\index\index.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:55:16+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.033105s][吞吐率：30.21req/s] [内存消耗：2,411.52kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '816eb0f3-52b6-495f-b3f9-0023e7ec365d',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\v1\index\index.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:55:17+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.031373s][吞吐率：31.87req/s] [内存消耗：2,411.52kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b7bd0b9e-5069-4f4b-8c7f-4c61fde2c3d4',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\v1\index\index.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:55:27+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.038014s][吞吐率：26.31req/s] [内存消耗：2,496.67kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '09087f59-94cf-4e97-bd9d-c31b22e5036e',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\wamp\www\zk\public/../application/wx\view\v1\_index\index.html[D:\wamp\www\zk\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2017-11-27T14:56:05+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.031808s][吞吐率：31.44req/s] [内存消耗：2,411.52kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a050ddb2-564e-4638-a919-84fe12e218a2',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\v1\index\index.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T15:00:16+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.059061s][吞吐率：16.93req/s] [内存消耗：2,411.52kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '92729862-70a1-492a-8a66-3c37b96a3f92',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\v1\index\index.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T15:00:16+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.049117s][吞吐率：20.36req/s] [内存消耗：2,411.52kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4cecedb7-3676-43a2-a954-424263cefb1b',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\v1\index\index.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T15:00:18+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/v1/index
+[ info ] www.tp5.com/wx/v1/index [运行时间：0.050246s][吞吐率：19.90req/s] [内存消耗：2,411.52kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'v1.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '40d0f8da-e3e8-4eee-8e53-cbf8093ba709',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\wx\controller\v1\Index->index[ D:\wamp\www\zk\application\wx\controller\v1\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/wx\view\v1\index\index.html [ array (
+  0 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T15:10:49+08:00 ] 127.0.0.1 127.0.0.1 GET /wx/test
+[ info ] www.tp5.com/wx/test [运行时间：0.130825s][吞吐率：7.64req/s] [内存消耗：1,991.80kb] [文件加载：31]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

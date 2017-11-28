@@ -14,8 +14,6 @@ use think\Controller;
 class Index extends Controller
 {
     public function index(){
-        $a="aaa";
-        $this->assign("a","aaaa");
-        return $this->fetch("index",[],['__PUBLIC__'=>'/public/']);
+        return $this->fetch();
     }
 }
