@@ -17,5 +17,8 @@ return [
     'appSecret'=>'d86b82a37ff39862771e41ff3a2b0216',
     'token_url'=>'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=%s&secret=%s',
     'menu_url'=>'https://api.weixin.qq.com/cgi-bin/menu/create?access_token=%s',
-    'user_url'=>'https://api.weixin.qq.com/cgi-bin/user/info?access_token=%s&openid=%s&lang=zh_CN'
+    'user_url'=>'https://api.weixin.qq.com/cgi-bin/user/info?access_token=%s&openid=%s&lang=zh_CN',
+    'auth_url'=>'https://open.weixin.qq.com/connect/oauth2/authorize?appid=%s&redirect_uri=%s&response_type=code&scope=snsapi_userinfo&state=%s#wechat_redirect',
+    'tmptoken_url'=>'https://api.weixin.qq.com/sns/oauth2/access_token?appid=%s&secret=%s&code=%s&grant_type=authorization_code '
+
 ];

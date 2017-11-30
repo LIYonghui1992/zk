@@ -187,7 +187,7 @@ class Message
                 $contentStr=$this->transmitMusic($object,$music);
             }else {
                 $content="谢谢您的回复!"; //如果添加了客服服务 这里就是你输入的文本
-
+                //客服接口，先将用户发送的消息和用户个人信息写入数据库
                 //调用一个方法 将openId和你输入的内容,使用函数处理
                 $access_token=get_token();
                 $openId=$object->FromUserName;

@@ -1,0 +1,22 @@
+---------------------------------------------------------------
+[ 2017-11-29T11:45:42+08:00 ] 127.0.0.1 127.0.0.1 POST /
+[ info ] master.test.dphub.sandai.net:80/ [运行时间：0.039403s][吞吐率：25.38req/s] [内存消耗：1,977.95kb] [文件加载：28]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'master.test.dphub.sandai.net:80',
+  'content-type' => 'application/octet-stream',
+  'content-length' => '256',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
