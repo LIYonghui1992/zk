@@ -1,0 +1,608 @@
+---------------------------------------------------------------
+[ 2017-11-30T21:43:26+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/index
+[ info ] www.tp5.com/h5/bottle/index [运行时间：0.034111s][吞吐率：29.32req/s] [内存消耗：2,481.39kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '52e2292e-d84d-4f81-a0fd-619c6f53b596',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'bottle',
+)
+[ info ] [ RUN ] app\h5\controller\bottle\Index->index[ D:\wamp\www\zk\application\h5\controller\bottle\Index.php ]
+[ info ] [ LOG ] INIT File
+[ log ] TmpTokenUrl is: 
+---------------------------------------------------------------
+[ 2017-11-30T21:43:26+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle.index/index.html
+[ info ] www.tp5.com/h5/bottle.index/index.html [运行时间：0.025688s][吞吐率：38.93req/s] [内存消耗：1,990.87kb] [文件加载：29]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '52e2292e-d84d-4f81-a0fd-619c6f53b596',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/h5/bottle/index',
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'bottle.index',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T21:48:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?XDEBUG_SESSION_START=18054
+[ info ] www.tp5.com/index.php?XDEBUG_SESSION_START=18054 [运行时间：0.038528s][吞吐率：25.96req/s] [内存消耗：1,978.99kb] [文件加载：28]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6350561280',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '18054',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T21:52:57+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/index?XDEBUG_SESSION_START=18054
+[ info ] www.tp5.com/h5/bottle/index?XDEBUG_SESSION_START=18054 [运行时间：219.662271s][吞吐率：0.00req/s] [内存消耗：2,649.93kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '993385c4-94b1-4b5e-a0f4-4a7367fff2f4',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '18054',
+  'version' => 'bottle',
+)
+[ info ] [ RUN ] app\h5\controller\bottle\Index->index[ D:\wamp\www\zk\application\h5\controller\bottle\Index.php ]
+[ info ] [ LOG ] INIT File
+[ log ] TmpTokenUrl is: 
+---------------------------------------------------------------
+[ 2017-11-30T21:52:58+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle.index/index.html
+[ info ] www.tp5.com/h5/bottle.index/index.html [运行时间：0.031466s][吞吐率：31.78req/s] [内存消耗：1,991.26kb] [文件加载：29]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '993385c4-94b1-4b5e-a0f4-4a7367fff2f4',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/h5/bottle/index?XDEBUG_SESSION_START=18054',
+  'host' => 'www.tp5.com',
+  'cookie' => 'XDEBUG_SESSION=18054',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'bottle.index',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T21:55:28+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/index?XDEBUG_SESSION_START=18054
+[ info ] www.tp5.com/h5/bottle/index?XDEBUG_SESSION_START=18054 [运行时间：136.135690s][吞吐率：0.01req/s] [内存消耗：2,608.57kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a89391e2-b0ae-4b39-ae97-fc0a3dacf3fd',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'cookie' => 'XDEBUG_SESSION=18054',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '18054',
+  'version' => 'bottle',
+)
+[ info ] [ RUN ] app\h5\controller\bottle\Index->index[ D:\wamp\www\zk\application\h5\controller\bottle\Index.php ]
+[ info ] [ LOG ] INIT File
+[ log ] TmpTokenUrl is: 
+[ error ] [8]Undefined index: code[xdebug://debug-eval:1]
+[ error ] [8]Undefined index: code[xdebug://debug-eval:1]
+[ error ] [8]Undefined index: code[xdebug://debug-eval:1]
+---------------------------------------------------------------
+[ 2017-11-30T21:55:28+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle.index/index.html
+[ info ] www.tp5.com/h5/bottle.index/index.html [运行时间：0.030222s][吞吐率：33.09req/s] [内存消耗：1,991.17kb] [文件加载：29]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a89391e2-b0ae-4b39-ae97-fc0a3dacf3fd',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'cookie' => 'XDEBUG_SESSION=18054',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/h5/bottle/index?XDEBUG_SESSION_START=18054',
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'bottle.index',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T21:58:17+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/index?XDEBUG_SESSION_START=18054
+[ info ] www.tp5.com/h5/bottle/index?XDEBUG_SESSION_START=18054 [运行时间：147.308484s][吞吐率：0.01req/s] [内存消耗：2,495.02kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '49aaa5c3-0f61-46b0-9531-ee0eeb39417d',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'cookie' => 'XDEBUG_SESSION=18054',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '18054',
+  'version' => 'bottle',
+)
+[ info ] [ RUN ] app\h5\controller\bottle\Index->index[ D:\wamp\www\zk\application\h5\controller\bottle\Index.php ]
+[ info ] [ LOG ] INIT File
+[ log ] TmpTokenUrl is: 
+---------------------------------------------------------------
+[ 2017-11-30T21:58:17+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle.index/index.html
+[ info ] www.tp5.com/h5/bottle.index/index.html [运行时间：0.038158s][吞吐率：26.21req/s] [内存消耗：1,991.17kb] [文件加载：29]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '49aaa5c3-0f61-46b0-9531-ee0eeb39417d',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'cookie' => 'XDEBUG_SESSION=18054',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/h5/bottle/index?XDEBUG_SESSION_START=18054',
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'bottle.index',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T22:00:19+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/index?XDEBUG_SESSION_START=18054
+[ info ] www.tp5.com/h5/bottle/index?XDEBUG_SESSION_START=18054 [运行时间：115.319768s][吞吐率：0.01req/s] [内存消耗：2,563.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '004c2d37-1ec0-45a2-b49a-00cda35385bf',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'cookie' => 'XDEBUG_SESSION=18054',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '18054',
+  'version' => 'bottle',
+)
+[ info ] [ RUN ] app\h5\controller\bottle\Index->index[ D:\wamp\www\zk\application\h5\controller\bottle\Index.php ]
+[ info ] [ LOG ] INIT File
+[ log ] TmpTokenUrl is: 
+---------------------------------------------------------------
+[ 2017-11-30T22:00:20+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle.index/index.html
+[ info ] www.tp5.com/h5/bottle.index/index.html [运行时间：0.031041s][吞吐率：32.22req/s] [内存消耗：1,991.17kb] [文件加载：29]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '004c2d37-1ec0-45a2-b49a-00cda35385bf',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'cookie' => 'XDEBUG_SESSION=18054',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/h5/bottle/index?XDEBUG_SESSION_START=18054',
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'bottle.index',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T22:01:04+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/index?XDEBUG_SESSION_START=18054
+[ info ] www.tp5.com/h5/bottle/index?XDEBUG_SESSION_START=18054 [运行时间：7.860213s][吞吐率：0.13req/s] [内存消耗：2,286.72kb] [文件加载：31]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4638a3f2-50d9-4677-a392-1a0f3b7c0a7b',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'cookie' => 'XDEBUG_SESSION=18054',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '18054',
+  'version' => 'bottle',
+)
+[ info ] [ RUN ] app\h5\controller\bottle\Index->index[ D:\wamp\www\zk\application\h5\controller\bottle\Index.php ]
+[ info ] [ LOG ] INIT File
+[ log ] TmpTokenUrl is: 
+---------------------------------------------------------------
+[ 2017-11-30T22:01:40+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/index
+[ info ] www.tp5.com/h5/bottle/index [运行时间：26.739998s][吞吐率：0.04req/s] [内存消耗：2,274.12kb] [文件加载：31]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '30d7fe02-2aa6-4480-bd9c-fb126178bbf9',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'cookie' => 'XDEBUG_SESSION=18054',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'bottle',
+)
+[ info ] [ RUN ] app\h5\controller\bottle\Index->index[ D:\wamp\www\zk\application\h5\controller\bottle\Index.php ]
+[ info ] [ LOG ] INIT File
+[ log ] TmpTokenUrl is: 
+---------------------------------------------------------------
+[ 2017-11-30T22:01:40+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/index
+[ info ] www.tp5.com/h5/bottle/index [运行时间：0.049807s][吞吐率：20.08req/s] [内存消耗：2,272.44kb] [文件加载：31]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '18468ac2-6a1f-4a5b-94e3-fa779278443f',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'cookie' => 'XDEBUG_SESSION=18054',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'bottle',
+)
+[ info ] [ RUN ] app\h5\controller\bottle\Index->index[ D:\wamp\www\zk\application\h5\controller\bottle\Index.php ]
+[ info ] [ LOG ] INIT File
+[ log ] TmpTokenUrl is: 
+---------------------------------------------------------------
+[ 2017-11-30T22:01:44+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/index
+[ info ] www.tp5.com/h5/bottle/index [运行时间：0.050773s][吞吐率：19.70req/s] [内存消耗：2,272.70kb] [文件加载：31]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9370f6d4-0b0c-44ac-9231-d335b9c2738b',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'cookie' => 'XDEBUG_SESSION=18054',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'bottle',
+)
+[ info ] [ RUN ] app\h5\controller\bottle\Index->index[ D:\wamp\www\zk\application\h5\controller\bottle\Index.php ]
+[ info ] [ LOG ] INIT File
+[ log ] TmpTokenUrl is: 
+---------------------------------------------------------------
+[ 2017-11-30T22:03:55+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/index
+[ info ] www.tp5.com/h5/bottle/index [运行时间：0.071864s][吞吐率：13.92req/s] [内存消耗：2,275.66kb] [文件加载：31]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '93fc7d21-37bb-44b0-b699-6e8606299344',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'cookie' => 'XDEBUG_SESSION=18054',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'bottle',
+)
+[ info ] [ RUN ] app\h5\controller\bottle\Index->index[ D:\wamp\www\zk\application\h5\controller\bottle\Index.php ]
+[ info ] [ LOG ] INIT File
+[ log ] TmpTokenUrl is: https://api.weixin.qq.com/sns/oauth2/access_token?appid=&secret=&code=&grant_type=authorization_code 
+---------------------------------------------------------------
+[ 2017-11-30T22:04:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?XDEBUG_SESSION_START=15771
+[ info ] www.tp5.com/index.php?XDEBUG_SESSION_START=15771 [运行时间：0.032990s][吞吐率：30.31req/s] [内存消耗：1,981.55kb] [文件加载：28]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=6350561280; XDEBUG_SESSION=18054',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '15771',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T22:06:59+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/index?XDEBUG_SESSION_START=15771
+[ info ] www.tp5.com/h5/bottle/index?XDEBUG_SESSION_START=15771 [运行时间：132.200657s][吞吐率：0.01req/s] [内存消耗：2,387.11kb] [文件加载：31]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e6a54307-f7b4-4be5-9656-d77812afa634',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'cookie' => 'XDEBUG_SESSION=18054',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '15771',
+  'version' => 'bottle',
+)
+[ info ] [ RUN ] app\h5\controller\bottle\Index->index[ D:\wamp\www\zk\application\h5\controller\bottle\Index.php ]
+[ info ] [ LOG ] INIT File
+[ log ] TmpTokenUrl is: https://api.weixin.qq.com/sns/oauth2/access_token?appid=&secret=&code=&grant_type=authorization_code 
+---------------------------------------------------------------
+[ 2017-11-30T22:08:13+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/index
+[ info ] www.tp5.com/h5/bottle/index [运行时间：4.480674s][吞吐率：0.22req/s] [内存消耗：2,276.30kb] [文件加载：31]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7530f4bf-8831-4b83-b25b-f2143016f72d',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'cookie' => 'XDEBUG_SESSION=15771',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'bottle',
+)
+[ info ] [ RUN ] app\h5\controller\bottle\Index->index[ D:\wamp\www\zk\application\h5\controller\bottle\Index.php ]
+[ info ] [ LOG ] INIT File
+[ log ] TmpTokenUrl is: https://api.weixin.qq.com/sns/oauth2/access_token?appid=&secret=&code=&grant_type=authorization_code 
+---------------------------------------------------------------
+[ 2017-11-30T22:08:15+08:00 ] 127.0.0.1 127.0.0.1 GET /h5/bottle/index
+[ info ] www.tp5.com/h5/bottle/index [运行时间：0.255205s][吞吐率：3.92req/s] [内存消耗：2,367.66kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'bottle.index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f5681289-eea8-4f2d-bcf2-427b5645aa76',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'cookie' => 'XDEBUG_SESSION=15771',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'bottle',
+)
+[ info ] [ RUN ] app\h5\controller\bottle\Index->index[ D:\wamp\www\zk\application\h5\controller\bottle\Index.php ]
+[ info ] [ LOG ] INIT File
+[ log ] TmpTokenUrl is: https://api.weixin.qq.com/sns/oauth2/access_token?appid=&secret=&code=&grant_type=authorization_code 

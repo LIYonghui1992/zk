@@ -27,14 +27,47 @@ class Token
 
     /**
      * 根据code获取token信息 调用WxTokenModel 将token信息存入数据库 以及返回token信息
+     * 授权后拿到的token 这里的create_time和update_time必须更新到最新
      */
     public function getToken(){
         $token_json=https_request($this->tmpTokenUrl);
         $tokeninfo=json_decode($token_json,true);
         $openid=$tokeninfo['openid'];
-        //根据 openid 查找是否有这个用户的token 并且确认这个token是否过期 如果没有token则插入 如果过期则重新获取
-        $token=new WxTokenModel();
+        //根据 openid 查找是否有这个用户的token 然后执行插入操作
+        $result=WxTokenModel::getTokenByOpenId($openid);
+        $data['access_token']=$tokeninfo['access_token'];
+        $data['refresh_token']=$tokeninfo['refresh_token'];
+        $data['scope']=$tokeninfo['scope'];
+        $data['create_time']=time();
+        $data['update_time']=time();
+        if($result){//如果有 则执行更新操作
+            $where['id']=$result['id'];
+            $token=WxTokenModel::where($where)->update($data);
+        }else{//否则执行插入操作
+            $data['openid']=$tokeninfo['openid'];
+            $data['expires_in']=$tokeninfo['expires_in'];
+            $token=WxTokenModel::create($data);
+        }
 
+        return $tokeninfo;
+    }
+
+    /**
+     * @param $refresh_token
+     * 这里的create_time和refresh_token可以不用改 接着用
+     *
+     */
+    public function refreshToken($refresh_token){
+        $refresh_token_url=sprintf(config('wx.refresh_tmptoken_url'),config('wx.appId'),$refresh_token);
+        $token_json=https_request($refresh_token_url);
+        $tokeninfo=json_decode($token_json,true);
+        //刷新的token肯定是数据库中已经有openid了所以直接更新行了
+        $where['openid']=$tokeninfo['openid'];
+        $data['access_token']=$tokeninfo['access_token'];
+        $data['expires_in']=$tokeninfo['expires_in'];
+        $data['scope']=$tokeninfo['scope'];
+        $data['update_time']=time();
+        $token=WxTokenModel::where($where)->update($data);
         return $tokeninfo;
     }
 }
