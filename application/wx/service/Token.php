@@ -15,9 +15,14 @@ class Token
     protected $tmpTokenUrl;
     public function __construct($code="")
     {
-        $this->tmpTokenUrl=sprintf(config('wx.tmptoken_url'),config('appId'),config('appSecret'),$code);
+        $this->tmpTokenUrl=sprintf(config('wx.tmptoken_url'),config('wx.appId'),config('wx.appSecret'),$code);
         Log::record("TmpTokenUrl is: ".$this->tmpTokenUrl);
     }
+
+    /**
+     * @param $url current web page url
+     * @return mixed authorization web page url
+     */
     public function auth($url){
         $bottle_url=urlencode($url);
         $bottle_para="123";
@@ -31,24 +36,8 @@ class Token
      */
     public function getToken(){
         $token_json=https_request($this->tmpTokenUrl);
+        Log::record("根据code获取到的信息".$token_json);
         $tokeninfo=json_decode($token_json,true);
-        $openid=$tokeninfo['openid'];
-        //根据 openid 查找是否有这个用户的token 然后执行插入操作
-        $result=WxTokenModel::getTokenByOpenId($openid);
-        $data['access_token']=$tokeninfo['access_token'];
-        $data['refresh_token']=$tokeninfo['refresh_token'];
-        $data['scope']=$tokeninfo['scope'];
-        $data['create_time']=time();
-        $data['update_time']=time();
-        if($result){//如果有 则执行更新操作
-            $where['id']=$result['id'];
-            $token=WxTokenModel::where($where)->update($data);
-        }else{//否则执行插入操作
-            $data['openid']=$tokeninfo['openid'];
-            $data['expires_in']=$tokeninfo['expires_in'];
-            $token=WxTokenModel::create($data);
-        }
-
         return $tokeninfo;
     }
 
