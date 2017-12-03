@@ -87,7 +87,6 @@
     <section id="main">
         <div id="show">
             <textarea id="show_content" ></textarea>
-
         </div>
         <div id="write">
             <textarea id="write_content"></textarea>
@@ -98,13 +97,9 @@
     <footer>
         <div id="throw">扔瓶子</div><div id="get">捡瓶子</div>
     </footer>
+    <input type="hidden" id="userid" value="{$user.id}">
 </section>
 <script>
-//    function throw_bottle(){
-//        alert("aaa");
-//        $("#write_content").show();
-//        $("#show_content").hide();
-//    }
     $("#throw").click(function () {
         $("#show_content").css("display","none");
         $("#show").hide();
@@ -112,15 +107,41 @@
         $("#write").show();
     });
     $("#get").click(function () {
-        $("#show_content").css("display","block");
-        $("#show").show();
-        $("#write_content").css("display","none");
-        $("#write").hide();
-
+        var url="{:url('bottle/getBottleContent')}";
+        var data={
+            get:"get"
+        };
+        $.post(url,data,function (data,status) {
+            if(status=="success"){
+                $("#show_content").val(data);
+                $("#show_content").css("display","block");
+                $("#show").show();
+                $("#write_content").css("display","none");
+                $("#write").hide();
+            }
+        });
     });
     $("#throwed").click(function () {
         var content=$("#write_content").val();
-        alert(content);
+        var userid=$("#userid").val();
+        if(content==""){
+            alert("content should not be empty");
+            return;
+        }
+        var url="{:url('bottle/writeBottleContent')}";
+        var data={
+            userid:userid,
+            content:content
+        };
+        $.post(url,data,function (data,status) {
+            if(status=="success"){
+                if(data>=1){
+                    alert("throw bottle successfully!");
+                }else{
+                    alert("throw bottle failed!");
+                }
+            }
+        });
     });
 
 </script>
