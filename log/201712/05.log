@@ -1,0 +1,56 @@
+---------------------------------------------------------------
+[ 2017-12-05T19:40:15+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index
+[ info ] www.tp5.com/shop/index [运行时间：0.038531s][吞吐率：25.95req/s] [内存消耗：2,569.46kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0fcf4d36-56d6-4d38-a025-7e496a1c2cb0',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(D:\wamp\www\zk\runtime\jsapi_ticket.php): failed to open stream: No such file or directory[D:\wamp\www\zk\application\shop\service\JSSDK.php:123]
+---------------------------------------------------------------
+[ 2017-12-05T19:49:34+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index
+[ info ] www.tp5.com/shop/index [运行时间：0.087363s][吞吐率：11.45req/s] [内存消耗：2,569.70kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5ef85209-2cf0-483e-bbc7-beaf8ebe1c8c',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property of non-object[D:\wamp\www\zk\application\shop\service\JSSDK.php:92]
