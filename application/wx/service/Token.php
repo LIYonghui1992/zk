@@ -23,11 +23,11 @@ class Token
      * @param $url current web page url
      * @return mixed authorization web page url
      */
-    public function auth($url){
-        $bottle_url=urlencode($url);
-        $bottle_para="123";
-        $bottleurl=sprintf(config('wx.auth_url'),config('wx.appId'),$bottle_url,$bottle_para);
-        return $bottleurl;
+    public function auth($url=""){
+        $url=urlencode($url);
+        $para="123";
+        $url=sprintf(config('wx.auth_url'),config('wx.appId'),$url,$para);
+        return $url;
     }
 
     /**

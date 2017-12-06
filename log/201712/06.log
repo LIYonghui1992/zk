@@ -1,0 +1,225 @@
+---------------------------------------------------------------
+[ 2017-12-06T20:48:22+08:00 ] 127.0.0.1 127.0.0.1 GET /usercenter/index
+[ info ] www.tp5.com/usercenter/index [运行时间：0.030521s][吞吐率：32.76req/s] [内存消耗：1,996.23kb] [文件加载：28]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'usercenter',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5726280d-6b05-4cfb-b479-36e34751e905',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-06T20:48:43+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/usercenter/index
+[ info ] www.tp5.com/shop/usercenter/index [运行时间：0.177196s][吞吐率：5.64req/s] [内存消耗：2,573.69kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'userCenter',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '639d94d8-2e09-42ca-8a16-b9c8bdb3b3e7',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property of non-object[D:\wamp\www\zk\application\shop\service\JSSDK.php:92]
+---------------------------------------------------------------
+[ 2017-12-06T20:49:14+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/usercenter/index
+[ info ] www.tp5.com/shop/usercenter/index [运行时间：0.041249s][吞吐率：24.24req/s] [内存消耗：2,512.88kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'userCenter',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0cdaf231-db7d-422b-9f64-31f42b97f666',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\shop\controller\UserCenter->index[ D:\wamp\www\zk\application\shop\controller\UserCenter.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\wamp\www\zk\public/../application/shop\view\user_center\index.html[D:\wamp\www\zk\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2017-12-06T20:49:42+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/usercenter/index
+[ info ] www.tp5.com/shop/usercenter/index [运行时间：0.031596s][吞吐率：31.65req/s] [内存消耗：2,006.15kb] [文件加载：29]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'usercenter',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '660d8669-70d3-4e35-be1d-9cc4c4ed5cb4',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-06T20:49:58+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/usercenter/index
+[ info ] www.tp5.com/shop/usercenter/index [运行时间：0.024094s][吞吐率：41.50req/s] [内存消耗：2,006.15kb] [文件加载：29]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'usercenter',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fb4eb2ab-75b4-488f-8465-3b583b03b5bd',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-06T20:50:32+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/usercenter/index
+[ info ] www.tp5.com/shop/usercenter/index [运行时间：0.048440s][吞吐率：20.64req/s] [内存消耗：2,781.66kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'usercenter',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '19300228-767d-4ebd-8c38-d087d25bab1c',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\shop\controller\Usercenter->index[ D:\wamp\www\zk\application\shop\controller\Usercenter.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/shop\view\usercenter\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: appId[D:\wamp\www\zk\runtime\temp\0e6ff9c81434f9d99a5a7278193483b8.php:39]
+---------------------------------------------------------------
+[ 2017-12-06T20:51:04+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/usercenter/index
+[ info ] www.tp5.com/shop/usercenter/index [运行时间：0.042561s][吞吐率：23.50req/s] [内存消耗：2,781.68kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'usercenter',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a25f6c2d-1da6-4fbc-8bdb-772ba5e841e9',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/6.4.1',
+  'accept' => '*/*',
+  'host' => 'www.tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\shop\controller\Usercenter->index[ D:\wamp\www\zk\application\shop\controller\Usercenter.php ]
+[ info ] [ VIEW ] D:\wamp\www\zk\public/../application/shop\view\usercenter\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: appId[D:\wamp\www\zk\runtime\temp\0e6ff9c81434f9d99a5a7278193483b8.php:39]
+---------------------------------------------------------------
+[ 2017-12-06T22:32:19+08:00 ] ::1 ::1 GET /
+[ info ] localhost/ [运行时间：0.025935s][吞吐率：38.56req/s] [内存消耗：1,996.49kb] [文件加载：28]
+[ info ] [ LANG ] D:\wamp\www\zk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ECS[visit_times]=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

@@ -19,5 +19,5 @@ class WxToken extends BaseModel
 //        $result=self::where($where)->find();
 //        return $result;
 //    }
-
+    
 }

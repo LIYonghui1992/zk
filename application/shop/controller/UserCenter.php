@@ -11,7 +11,7 @@ namespace app\shop\controller;
 
 use app\shop\controller\BaseController;
 
-class UserCenter extends BaseController
+class Usercenter extends BaseController
 {
     public function index(){
         return $this->fetch();

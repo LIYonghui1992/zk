@@ -11,8 +11,8 @@
 
 use think\Route;
 //微商城
-Route::rule('shop/index', 'shop/index/index');
-Route::rule('shop/usercenter/index', 'shop/userCenter/index');
+Route::rule('shop/index/index', 'shop/index/index');
+Route::rule('shop/usercenter/index', 'shop/usercenter/index');
 //微网页小游戏
 Route::rule('h5/:version/index', 'h5/:version.index/index');//路由的时候 index会自动转为Index
 Route::rule('h5/:version/getBottleContent', 'h5/:version.index/getBottleContent');//路由的时候 index会自动转为Index
