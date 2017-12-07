@@ -16,4 +16,5 @@ class Usercenter extends BaseController
     public function index(){
         return $this->fetch();
     }
+    
 }
